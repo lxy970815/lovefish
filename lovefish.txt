@@ -1,0 +1,34 @@
+玩法：
+    大鱼吃果实
+    大鱼喂小鱼
+    小鱼恢复体力
+第一阶段
+    1. 静止的海葵
+    2. 海葵产生果实
+    3. 果实自动漂浮
+    4. 大鱼吃果实
+    5. 大鱼喂小鱼
+第二阶段
+    1. 海葵摆动动画
+    2. 大鱼眼睛 尾巴动画
+    3. 小鱼眼睛 尾巴动画
+    4. 小鱼生命值判断
+    5. 游戏分值计算
+    6. 漂浮物
+1. 具有HTML CSS基础知识
+2. 具有javascript基础知识（函数、类、对象）
+3. 具有一些canvas基础（画线 弧线 ）
+
+绘制海葵
+绘制直线的API
+    beginPath()
+    closePath();
+    strokeStyle();
+    stroke();
+    lineWidth;
+    lineCap;
+    globalAlpha
+画大鱼 身子眼睛 尾巴
+translate()
+rotate();
+Math.atan(y, x);
